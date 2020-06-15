@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import About from '../About';
 import Contact from '../../containers/Contact';
-import Navbar from '../Navbar';
+// import Navbar from '../Navbar';
 // import Footer from '../Footer';
 // import Portfolio from '../Portfolio';
 
@@ -12,7 +12,7 @@ import Navbar from '../Navbar';
 
 const App = props => (
   <Router>
-    <Navbar />
+    {/* <Navbar /> */}
     <Route exact path="/" component={About}/>
     <Route exact path="/Contact" component={Contact}/>
     {/* <Route exact path="/Portfolio" component={Portfolio}/> */}
