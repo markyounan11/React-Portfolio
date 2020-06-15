@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { render } from '@testing-library/react';
 
-function Portfolio() {
+import Portfolio from './../../components/Portfolio';
 
-    return(
-        <div>Portfolio</div>
-    );
+class ContainerPortfolio extends Component {
+    state = {
+        repository: '',
+        link: ''
+    }
+    render() {
+        return (
+            <Portfolio/>
+        )
+    }
 }
 
-export default Portfolio;
+
+export default ContainerPortfolio;

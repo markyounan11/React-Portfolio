@@ -1,22 +1,34 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar(){
-    return(
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <span className="navbar-brand">Mark Younan</span>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-                <a className="nav-item nav-link" href="/About">About</a>
-                <a className="nav-item nav-link" href="/Contact">Contact</a>
-                <a className="nav-item nav-link" href="/Portfolio">Portfolio</a>
+import './../../assets/Styles/styles.css';
+
+// import './NavBar.css';
+
+const Navbar = props => (
+
+    <div className="bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark container" max-height="56px">
+            <a id="nameTextSpace" className="text-success bg-dark navbar-brand" href="#"><strong>Mark Younan</strong></a>
+            <button className="navbar-toggler border border-success" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item active">
+                        <Link className="nav-link" to="/">About <span className="sr-only">(current)</span></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/Portfolio">Portfolio</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/Contact">Contact</Link>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+    );
 
-);
-}
-
-export default Navbar
+export default Navbar;
