@@ -13,7 +13,7 @@ body {
 
 /* changes letterspacing for the brand on the navbar */
 #nameTextSpace {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 /* background of the containers throughout the portfolio */
