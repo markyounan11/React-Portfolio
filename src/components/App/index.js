@@ -5,7 +5,7 @@ import About from '../About';
 import Contact from '../../containers/Contact';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-// import Portfolio from '../Portfolio';
+import Portfolio from '../Portfolio';
 
 
 
@@ -15,7 +15,7 @@ const App = props => (
     <Navbar />
     <Route exact path="/" component={About}/>
     <Route exact path="/Contact" component={Contact}/>
-    {/* <Route exact path="/Portfolio" component={Portfolio}/> */}
+    <Route exact path="/Portfolio" component={Portfolio}/>
     <Footer/>
   </Router>
 );
