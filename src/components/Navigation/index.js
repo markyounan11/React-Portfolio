@@ -5,7 +5,7 @@ import './../../assets/Styles/styles.css';
 
 // import './NavBar.css';
 
-const Navbar = () => (
+const Navigation = () => (
 
     <div className="bg-dark">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark container" max-height="56px">
@@ -31,4 +31,4 @@ const Navbar = () => (
     </div>
     );
 
-export default Navbar;
+export default Navigation;
