@@ -19,8 +19,15 @@ const About = props => (
                 </div>
                 <div className="col text-light text-left">
                     <p>
-                        Thank you for visiting my website! My name is Mark Younan and I am a Software Engineer in the San Francisco Bay Area. My whole life, I've always had a fascination with technology and figuring out new, more efficient ways to complete every day tasks in order to make life easier. In many cases, this is a frustrating process, however, the results yielded are always incredibly rewarding.
-                        When I am not at work, I enjoy playing golf, watching basketball, and going to the beach. I'm also into super cars and I love and spending time with my family. Additionally, I am a cantor for the Coptic Orthodox Church. My responsibilities include leading the chorus of deacons during liturgical services and being the director of the Hymnological School in charge of teaching Coptic hymns to multiple deacon classes of various age groups.     
+                        Thank you for visiting my website! My name is Mark Younan and I am a Full Stack Software Engineer in the San Francisco Bay area. My whole life, I've always had a fascination with technology and figuring out new, more efficient ways to complete every day tasks in order to make life easier. I am a self-motivated problem solver and challenge seeker who thrives best when working in a team. I merge a passion for usability and user experience with technical knowledge to create seamless digital experiences. I’m eager to always be learning new technologies and frameworks. When I am not at work, I enjoy playing golf, watching basketball, going to the beach and being out in nature. I'm also into super cars and I love and spending time with my family.
+
+Front End: JavaScript, jQuery, JSX, HTML, CSS, Bootstrap, Bulma, Semantic UI, Semantic UI React, APIs, JSON, AJAX, Axios, React.js, Redux.js
+
+Back End: Node.js, Express.js, MVC, ORM (Sequelize), Creating APIs, User Authentication, MySQL, MongoDB
+
+Dev Tools: Git, Github, Gitlab, NPM, React Developer Tools, Redux DevTools, Heroku, Webpack
+
+CS Fundamentals: Algorithms, Data Structures      
                     </p>
                 </div>
             </div>
