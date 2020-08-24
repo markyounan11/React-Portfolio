@@ -1,7 +1,7 @@
 import React from 'react';
 
 //images imported from assets
-import Golf from './../../assets/Images/golf.jpg';
+import Golf from './../../assets/Images/golfer.jpg';
 import Beach from './../../assets/Images/beach.jpg';
 import Cantor from './../../assets/Images/cantor.jpg';
 
