@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import About from '../About';
 import Contact from '../../containers/Contact';
 import Navigation from '../Navigation';
-import Footer from '../Footer';
 import Portfolio from '../Portfolio';
 
 
